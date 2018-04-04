@@ -25,7 +25,7 @@ This repository includes the implimentation of LDA-inspired Domain Adaptation (L
 
 If you use our codes in your research, please cite:
 
-	@inproceedings{hao2018ldada,
+	@inproceedings{lu2018ldada,
 		author = {Hao Lu and Chunhua Shen and Zhiguo Cao and Yang Xiao and Anton van den Hengel},
 		title = {An Embarrassingly Simple Approach to Visual Domain Adaptation},
 		journal = {IEEE Transactions on Image Processing},
