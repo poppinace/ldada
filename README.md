@@ -18,8 +18,8 @@ This repository includes the implimentation of LDA-inspired Domain Adaptation (L
 2. LibLinear toolbox at: https://www.csie.ntu.edu.tw/~cjlin/liblinear/. Please remember to install it following the instruction on the website, especially for Windows and Ubuntun users.
 
 **Usage**
-1. choose your options in the paramInit.m function (e.g., setting opt.dataset to specify a dataset or opt.nclasstrain to specify the expermental protocol.
-2. run batchOfficeCaltech10.m/batchOffice.m/batchSatelliteScene5.m/batchMTFS3.m to reproduce the results of corresponding dataset.
+1. choose your options in the paramInit.m function (e.g., setting opt.dataset to specify a dataset or opt.nclasstrain to specify the experimental protocol).
+2. run batchOfficeCaltech10.m/batchOffice.m/batchSatelliteScene5.m/batchMTFS3.m to reproduce the results of a corresponding dataset.
 
 ### Citation
 
