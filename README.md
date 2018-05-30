@@ -11,7 +11,7 @@ By [Hao Lu](http://sites.google.com/site/poppinace)<sup>1</sup>, [Chunhua Shen](
   
 ### Introduction
 
-This repository includes the implimentation of LDA-inspired Domain Adaptation (LDADA) proposed in our TIP paper. LDADA can achieve high-quality domain adaptation without explicit adaptation. It is conceptually simple, effective, robust, fast, parameter-free, and applicable to both unsupervised and semi-supervised DA setting.
+This repository includes the implimentation of LDA-inspired Domain Adaptation (LDADA) proposed in our TIP paper. LDADA can achieve high-quality domain adaptation without explicit adaptation. It is conceptually simple, effective, robust, fast, parameter-free, and applicable to both unsupervised and semi-supervised DA settings.
 
 **Prerequisites**
 1. Matlab is required. This repository has been tested on 64-bit Mac OS X Matlab2016a and on 64-bit Window 10 Matlab2017a.
@@ -25,10 +25,14 @@ This repository includes the implimentation of LDA-inspired Domain Adaptation (L
 
 If you use our codes in your research, please cite:
 
-	@inproceedings{lu2018ldada,
-		author = {Hao Lu and Chunhua Shen and Zhiguo Cao and Yang Xiao and Anton van den Hengel},
-		title = {An Embarrassingly Simple Approach to Visual Domain Adaptation},
-		journal = {IEEE Transactions on Image Processing},
-		year = {2018}
+	@article{lu2018ldada,
+	  title={An Embarrassingly Simple Approach to Visual Domain Adaptation},
+	  author={Lu, Hao and Shen, Chunhua and Cao, Zhiguo and Xiao, Yang and van den Hengel, Anton},
+	  journal={IEEE Transactions on Image Processing},
+	  volume={27},
+	  number={7},
+	  pages={3403--3417},
+	  year={2018},
+	  publisher={IEEE}
 	}
   
