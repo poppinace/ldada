@@ -26,7 +26,7 @@ Xt = bsxfun(@minus, Xt, meanXt);
 Xs = bsxfun(@times, Xs, 1./max(1e-12, sqrt(sum(Xs.^2))));
 Xt = bsxfun(@times, Xt, 1./max(1e-12, sqrt(sum(Xt.^2))));
 
-% get the lower bound and higher bound
+% get the lower bound and upper bound
 acc_oracle = 0;
 if ldada.verbose
   acc_na = normAcc(Yt, learnPredictSVM(Xs, Xt, Ys, Yt));
